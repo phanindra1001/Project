@@ -10,7 +10,7 @@ import streamlit as st
 import datetime
 from pandas.io.formats.style import Styler 
 from pickle import load
-from sklearn.ensemble import RandomForestClassifier
+#from sklearn.ensemble import RandomForestClassifier
 
 st.title('Impact Prediction App')
 st.sidebar.header('User Input Parameters')
