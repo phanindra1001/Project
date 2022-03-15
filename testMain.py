@@ -68,7 +68,7 @@ def main():
     if(st.sidebar.button(label='Predict Impact')):
         st.subheader('User Input parameters')
         #st.table(df.assign(hack='').set_index('hack'))
-        model = load(open('RandomForest_Model.sav', 'rb'))
+        model = load(open('P:/Project/final folder/RandomForest_Model.sav', 'rb'))
         prediction = model.predict(df)
         if(prediction == 1):
             st.success('Impact Predicted is \n {} - High'.format(prediction))
