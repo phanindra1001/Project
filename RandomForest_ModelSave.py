@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Mar 4 2022
-@author: Spurti
+@author: phani ullamgunta
 """
 import pandas as pd
 import numpy as np
